@@ -1,0 +1,1 @@
+export const BaseUrl = 'https://gateway.scan-interfax.ru/api/v1';
