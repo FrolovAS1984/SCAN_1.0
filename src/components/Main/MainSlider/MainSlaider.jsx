@@ -31,51 +31,44 @@ function MainSlaider (){
             <h2>Почему именно мы</h2>
 
             <div className="carousel">
-                <div className="carousel-arrow left-arrow" onClick={ scrollLeft }>
-                    <img src={ arrow } alt="arrow" role="button"/>
+                <div className="carousel-arrow left-arrow" onClick={scrollLeft}>
+                    <img src={arrow} alt="arrow" role="button"/>
                 </div>
 
-                <div className="carousel-content" ref={ carouselRef }>
+                <div className="carousel-content" ref={carouselRef}>
                     <div className="carousel-item">
-                        <img className="why_us_icon" src={ icon_watch } alt="watch icon"/>
-                        <p>Высокая и оперативная скорость <br/>обработки заявки</p>
-                    </div>
-                    <div className="carousel-item">
-                        <img className="why_us_icon" src={ icon_magnifier } alt="magnifier icon"/>
-                        <p>Огромная комплексная база <br/>данных, обеспечивающая <br/>объективный ответ на запрос</p>
-                    </div>
-                    <div className="carousel-item">
-                        <img className="why_us_icon" src={ icon_shield } alt="shield icon"/>
+                        <img className="why_us_icon" src={icon_shield} alt="shield icon"/>
                         <p>Защита конфиденциальных сведений, <br/>не подлежащих разглашению по <br/>федеральному
                             законодательству</p>
                     </div>
                     <div className="carousel-item">
-                        <img className="why_us_icon" src={ icon_watch } alt="watch icon"/>
+                        <img className="why_us_icon" src={icon_watch} alt="watch icon"/>
                         <p>Высокая и оперативная скорость <br/>обработки заявки</p>
                     </div>
                     <div className="carousel-item">
-                        <img className="why_us_icon" src={ icon_magnifier } alt="magnifier icon"/>
+                        <img className="why_us_icon" src={icon_magnifier} alt="magnifier icon"/>
                         <p>Огромная комплексная база <br/>данных, обеспечивающая <br/>объективный ответ на запрос</p>
                     </div>
                     <div className="carousel-item">
-                        <img className="why_us_icon" src={ icon_shield } alt="shield icon"/>
+                        <img className="why_us_icon" src={icon_shield} alt="shield icon"/>
                         <p>Защита конфиденциальных сведений, <br/>не подлежащих разглашению по <br/>федеральному
                             законодательству</p>
                     </div>
                     <div className="carousel-item">
-                        <img className="why_us_icon" src={ icon_watch } alt="watch icon"/>
-                        <p>Высокая и оперативная скорость <br/>обработки заявки</p>
+                        <img className="why_us_icon" src={icon_watch} alt="watch icon"/>
+                        <img className="why_us_icon" src={icon_watch} alt="watch icon"/>
+                        <p>Тест<br/>Тест</p>
                     </div>
 
                 </div>
 
-                <div className="carousel-arrow right-arrow" onClick={ scrollRight }>
-                    <img src={ arrow } alt="arrow" role="button"/>
+                <div className="carousel-arrow right-arrow" onClick={scrollRight}>
+                    <img src={arrow} alt="arrow" role="button"/>
                 </div>
             </div>
 
             <div className="why-us-image-container">
-                <img className="why-us-large-image" src={ large_picture } alt="Why us Scan image"/>
+                <img className="why-us-large-image" src={large_picture} alt="Why us Scan image"/>
             </div>
 
         </div>

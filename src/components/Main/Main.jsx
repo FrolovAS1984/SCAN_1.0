@@ -5,6 +5,8 @@ import AboutService from './AboutService/AboutService.jsx';
 import Rates from "./Rates/Rates.jsx";
 import MainSlaider from "./MainSlider/MainSlaider.jsx";
 
+
+
 function Main ({isLoggedIn, userTariff}) {
   return (
     <div className="main-content">

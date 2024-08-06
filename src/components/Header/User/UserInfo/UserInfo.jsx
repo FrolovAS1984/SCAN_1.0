@@ -1,9 +1,9 @@
 
 import { useAuth } from '../../../../context/AuthContext.jsx';
 import '../../../../styles/UserInfo.css';
+import user_pic_example from '../../../../images/avatar.jpg';
 
-
-const UserInfo = ({ userName, userPicture}) => {
+const UserInfo = () => {
     const { setIsLoggedIn } = useAuth();
 
     const handleLogout = () => {
@@ -15,12 +15,12 @@ const UserInfo = ({ userName, userPicture}) => {
     return (
         <div className="user-info">
             <div className="user-details">
-                <div className="user-name">{userName}</div>
+                <div className="user-name">Антон Ф.</div>
 
                 <a href="#" className="logout-link" onClick={handleLogout}>Выйти</a>
             </div>
 
-            <img src={userPicture} alt="User" className="user-picture" />
+            <img src={user_pic_example} alt="User" className="user-picture" />
         </div>
     );
 };
