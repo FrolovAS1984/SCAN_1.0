@@ -1,10 +1,9 @@
 .whyUs-block {
     background-color: var(--white);
-    margin: 0 auto;
+    margin: 100px auto;
     padding: 0 60px;
     max-width: 1440px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+
 }
 
 .why-us-large-image {
@@ -39,8 +38,7 @@
     flex: 0 0 400px;
     height: 225px;
     margin: 7px;
-    padding: 20px;
-    padding-top: 25px;
+    padding: 25px 20px 20px;
     scroll-snap-align: start;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #00000033;
@@ -98,8 +96,7 @@
     .carousel-item {
         flex: 0 0 290px;
         height: 188px;
-        padding: 10px;
-        padding-top: 10px;
+        padding: 10px 10px 10px 10px;
         font-size: 16px;
     }
 

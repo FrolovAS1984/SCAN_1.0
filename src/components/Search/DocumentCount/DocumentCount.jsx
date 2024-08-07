@@ -44,6 +44,6 @@ function DocumentCount ({ documentCount , setDocumentCount }) {
             { error && <div className="error-message">{ error }</div> }
         </div>
     );
-};
+}
 
 export default DocumentCount;

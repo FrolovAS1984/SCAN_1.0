@@ -25,11 +25,6 @@ function App () {
     const [userName , setUserName] = useState( '' );
     const [userPicture , setUserPicture] = useState( '' );
 
-    useEffect( () => {
-        if (!isLoggedIn) {
-            console.log( "Пользователь не авторизован" );
-        }
-    } , [isLoggedIn] );
 
     useEffect( () => {
         checkAuthStatus();

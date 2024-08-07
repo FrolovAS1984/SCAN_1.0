@@ -10,7 +10,7 @@ import User from './User/User.jsx';
 import {useAuth} from '../../context/AuthContext.jsx';
 
 
-import useWindowSize from './useWindowSize.jsx';
+import useWindowSize from '../../utils/useWindowSize.jsx';
 
 import scan_logo_green from '../../images/scan_logo_green.svg';
 import scan_logo_white from '../../images/scan_logo_white.svg';

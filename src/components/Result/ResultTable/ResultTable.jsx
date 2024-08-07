@@ -1,5 +1,5 @@
 import {useRef , useEffect , useState , Fragment} from 'react';
-import {combineDataByDate} from './FormatData.js';
+import {combineDataByDate} from '../../../utils/FormatData.js';
 import '../../../styles/ResultTable.css';
 import loading_icon from '../../../images/loading_icon.svg';
 
